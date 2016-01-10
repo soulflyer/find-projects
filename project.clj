@@ -7,7 +7,7 @@
                  [org.clojure/tools.cli "0.3.3"]
                  [image-lib "0.1.0-SNAPSHOT"]]
   :main ^:skip-aot find-projects.core
-  :target-path "target/%s"
+;;  :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
   :bin {:name "find-projects"
         :bin-path "~/bin"})
