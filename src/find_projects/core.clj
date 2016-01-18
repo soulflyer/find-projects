@@ -24,4 +24,4 @@
       (println
        (count projects))
       :else
-      projects)))
+      (println projects))))
