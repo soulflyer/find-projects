@@ -15,6 +15,10 @@ lein bin
 Get the current options by running:
 
     $ find-projects -h 
+    
+## TODO
+
+make it output one project per line rather than a list all on one line.
 
 ## License
 
