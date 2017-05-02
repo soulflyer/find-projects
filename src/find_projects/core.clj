@@ -6,7 +6,7 @@
 (def cli-options
   [["-c" "--count" "Counts the results"]
    ["-d" "--database DATABASE" "specifies database to use"
-    :default "soulflyer"]
+    :default "photos"]
    ["-i" "--image-collection IMAGE-COLLECTION" "specifies the image collection"
     :default "images"]
    ["-h" "--help"]])
