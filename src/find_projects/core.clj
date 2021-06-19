@@ -1,6 +1,6 @@
 (ns find-projects.core
   (:require [clojure.tools.cli :refer :all]
-            [image-lib.core    :refer :all])
+            [image-lib.core    :refer [find-projects]])
   (:gen-class))
 
 (def cli-options
